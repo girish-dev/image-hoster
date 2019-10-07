@@ -45,10 +45,6 @@ public class ImageController {
     //Add the image in the Model type object with 'image' as the key
     //Return 'images/image.html' file
 
-    //addded logic to resolve the bug to be able able to view multiple images with same name
-    //addded logic to resolve the bug to be able able to view edit images with owner
-    //addded logic to resolve the bug to be able able to delete images with owner
-
     //Also now you need to add the tags of an image in the Model type object
     //Here a list of tags is added in the Model type object
     //this list is then sent to 'images/image.html' file and the tags are displayed
