@@ -30,6 +30,10 @@ public class ImageController {
     @Autowired
     private TagService tagService;
 
+
+
+
+
     //This method displays all the images in the user home page after successful login
     @RequestMapping("images")
     public String getUserImages(Model model) {
@@ -226,4 +230,8 @@ public class ImageController {
 
         return tagString.toString();
     }
+
+
+
+
 }
